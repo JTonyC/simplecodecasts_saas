@@ -48,6 +48,9 @@ gem 'stripe', '1.31.0'
 #Use figaro to hide secret keys
 gem 'figaro', '1.1.1'
 
+#Use paperclip
+gem 'paperclip', '~> 4.3', '>= 4.3.2'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
