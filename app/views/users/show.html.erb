@@ -1,3 +1,4 @@
+<%= image_tag @user.profile.avatar.url, :style => 'width: 150px' %>
 <%= @user.profile.first_name %> <%= @user.profile.last_name %><br/>
 <% if current_user.plan_id == 2 %>
     <%= @user.profile.job_title %><br/>
